@@ -3,98 +3,108 @@
 <head>
 <meta charset="UTF-8">
 <title>Ziauddin Examination Board Check Profile</title>
-<style> 
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Times New Roman (manually added) -->
+<style>
     body {
-        background: #eceff3;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding-top: 20px;
-    }
-    .card-wrapper {
-        width: 550px;
-        margin: auto;
-    }
-    .photo-box img {
-        width: 260px;
-        border-radius: 4px;
-    }
-    .info-box {
-        background: #000;
-        color: #fff;
-        padding: 25px 10px;
-        margin-top: 20px;
-        text-align: left;
-        font-size: 17px;
-        line-height: 34px;
-    }
-    .row-title {
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    .value {
-        float: right;
+        font-family: "Times New Roman", Times, serif !important;
     }
 </style>
+
 </head>
-<body>
 
-<div class="card-wrapper">
+<body class="h-auto flex justify-center items-center m-0 pt-[10px] pb-[10px]">
 
-    <!-- Student Picture -->
-    <div class="photo-box">
-        <img src="data:image/jpeg;base64,
-/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhISEhIQEBAVEBAVEBUQEA8QEBAVFREWFhUV
-FhUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGxAQGy0lICUtLS0tLS0tLS0t
-LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJ8BPgMBIgACEQED
-EQH/xAAcAAABBAMBAAAAAAAAAAAAAAAEAQIDBQYABwj/xABFEAACAQIDBQUEBQQIBgMAAAABAg
-MAEQQSIQUxQVFhBhMicYGRobHBFCNCUrHB0fAjYoKy4RUzQ1Oi8SMzQ2PC8TRFk+L/xAAYAQEBAA
-AAAAAAAAAAAAAAAAABAv/EACURAQACAgICAgMBAAAAAAAAAAABAgMRISIxEkFRUSNhwf/aAAwD
-AQACEQMRAD8A1xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAP/Z" alt="Student Photo">
+    <!-- main div -->
+    <div class="max-w-[800px] h-auto w-full flex flex-col justify-start items-center">
+
+        <!-- Top Image Section -->
+        <div class="w-full flex justify-center p-4">
+            <img src="student image.jpg" alt="Ziauddin Examination Logo" class="w-[265px] pt-[15px] pb-[15px]">
+        </div>
+
+        <!-- Table Section -->
+        <table class="bg-[#010101] w-full h-auto text-white text-[21px]  ">
+            <tbody>
+                <tr class="grid grid-cols-2  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h1>ROLL NO:-</h1>
+                    </th>
+                    <th class="w-[305px]">
+                        <h1>220099</h1>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-2  text-center  mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>CANDIDATE'S NAME:</h4>
+                    </th>
+                    <th class="w-[305px]">
+                        <h4>AMMAD UL HASSAN MINHAS</h4>
+                    </th>
+                </tr>
+
+                 <tr class="grid grid-cols-2  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>FATHER'S NAME:</h4>
+                    </th>
+                    <th class="w-[305px]">
+                        <h4>NAZIM MINHAS</h4>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-3  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>NAME OF INSTITUTE:</h4>
+                    </th>
+                    <th>
+                        <h4 class="w-[390px] ml-[80px]">A.D.M HIGHER SECONDARY SCHOOL</h4>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-2  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>ENROLLMENT NO:
+</h4>
+                    </th>
+                    <th class="w-[305px]">
+                        <h4>ZUEB/H.S.C/2023/102895</h4>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-2  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>GROUP:</h4>
+                    </th>
+                    <th class="w-[305px]">
+                        <h4>HUMANITIES PRIVATE</h4>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-2  text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>DATE OF BIRTH:</h4>
+                    </th>
+                    <th class="w-[305px]">
+                        <h4>21-Jul-1999</h4>
+                    </th>
+                </tr>
+
+                <tr class="grid grid-cols-3   text-center mt-[25px] mb-[48px]">
+                    <th class="w-[270px] ">
+                        <h4>EXAM VENUE:</h4>
+                    </th>
+                    <th class="w-[450px] bg-ryan-200 ml-[40px] ">
+                        <h4>CRESCENT PUBLIC HIGHER SECONDARY SCHOOL</h4>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+
     </div>
-
-    <!-- Information Box -->
-    <div class="info-box">
-
-        <div><span class="row-title">ROLL NO:</span> 
-            <span class="value">220866</span></div>
-
-        <div><span class="row-title">CANDIDATE'S NAME:</span> 
-            <span class="value">MUHAMMAD MUSLIM</span></div>
-
-        <div><span class="row-title">FATHER'S NAME:</span> 
-            <span class="value">ABDUL SATTAR</span></div>
-
-        <div><span class="row-title">NAME OF INSTITUTE:</span> 
-            <span class="value">AGHA HIGHER SECONDARY SCHOOL</span></div>
-
-        <div><span class="row-title">ENROLLMENT NO:</span> 
-            <span class="value">ZUEB/H.S.C/2023/98146</span></div>
-
-        <div><span class="row-title">GROUP:</span> 
-            <span class="value">HUMANITIES PRIVATE</span></div>
-
-        <div><span class="row-title">DATE OF BIRTH:</span> 
-            <span class="value">03-Dec-1995</span></div>
-
-        <div><span class="row-title">EXAM VENUE:</span> 
-            <span class="value">PISTON COLLEGE</span></div>
-
-    </div>
-</div>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Change URL after page loads
-  window.history.replaceState(
-    {},
-    "",
-    "https://portal.zueb.edu.pk/xnbIjtyCWhWDwPIcKThMbwNnLjnYcELLW?rolno=220866"
-  );
-});
-</script>
-
 
 </body>
 </html>
-
-
